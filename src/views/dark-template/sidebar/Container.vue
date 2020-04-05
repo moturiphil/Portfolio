@@ -7,7 +7,7 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Amirreza <span class="light-blue--text text--lighten-3">Nasiri</span>
+          Philip <span class="light-blue--text text--lighten-3">Matunda</span>
         </h1>
         <span>
           A challenge-loving web developer
@@ -60,6 +60,18 @@
           </v-container>
         </template>
       </sidebar-section>
+      <sidebar-section :options="sections.books">
+        <template v-slot:item="{item}">
+          <v-chip>
+            <v-avatar>
+              <v-icon>
+                {{ item.icon }}
+              </v-icon>
+            </v-avatar>
+            {{ item.text }}
+          </v-chip>
+        </template>
+      </sidebar-section>
     </v-card-text>
   </v-card>
 </template>
@@ -79,22 +91,22 @@ export default {
             {
               name: 'Email',
               icon: 'mdi-email',
-              text: 'hi@amirreza.in',
+              text: 'philipmatunda@gmail.com',
             },
             {
               name: 'Website',
               icon: 'mdi-web',
-              text: 'amirreza.in',
+              text: 'philipmatunda.io',
             },
             {
               name: 'Birth Date',
               icon: 'mdi-cake-variant',
-              text: 'Dec 7, 1996',
+              text: 'Dec 28, 1996',
             },
             {
               name: 'Habitation',
               icon: 'mdi-map-marker',
-              text: 'Tabriz, Iran',
+              text: 'Nakuru, Kenya',
             },
           ],
         },
@@ -103,23 +115,23 @@ export default {
           items: [
             {
               icon: 'mdi-github-circle',
-              text: 'github.com/AmirrezaNasiri',
-              link: 'https://github.com/AmirrezaNasiri',
+              text: 'github.com/Phil-Reck',
+              link: 'https://github.com/Phil-Reck',
             },
             {
               icon: 'mdi-linkedin-box',
-              text: 'linkedin.com/in/amirreza-nasiri',
-              link: 'https://linkedin.com/in/amirreza-nasiri',
+              text: 'linkedin.com/in/philip-matunda',
+              link: 'https://www.linkedin.com/in/philip-matunda-b83a9915b/',
             },
             {
               icon: 'mdi-twitter',
-              text: 'twitter.com/Amirreza_Nasiri',
-              link: 'https://twitter.com/Amirreza_Nasiri',
+              text: 'twitter.com/philip_matunda',
+              link: 'https://twitter.com/philip_matunda',
             },
             {
               icon: 'mdi-instagram',
-              text: 'instagram.com/amirreza.n96',
-              link: 'https://instagram.com/amirreza.n96',
+              text: 'instagram.com/unmasked.phil',
+              link: 'https://www.instagram.com/unmasked.phil/',
             },
           ],
         },
@@ -129,7 +141,7 @@ export default {
 
             {
               icon: 'mdi-bullseye',
-              text: 'Getting out of Safe Zone',
+              text: 'Getting out of comfort zone',
             },
             {
               icon: 'mdi-biohazard',
@@ -145,14 +157,14 @@ export default {
             },
             {
               icon: 'mdi-auto-fix',
-              text: 'Hacking Stuffs',
+              text: 'Hacking',
             },
             {
               icon: 'mdi-teach',
               text: 'Teaching',
             },
             {
-              icon: 'mdi-karate',
+              icon: 'mdi-car-sports',
               text: 'Sports',
             },
             {
@@ -178,19 +190,33 @@ export default {
           items: [
             {
               text : 'English',
-              value: 70,
+              value: 85,
             },
             {
-              text : 'Turkish',
-              value: 45,
+              text : 'Swahili',
+              value: 90,
+            },
+          ],
+        },
+        books: {
+          title: 'FAVORITE BOOKS',
+          items: [
+
+            {
+              icon: 'mdi-book-open-page-variant',
+              text: 'Passionate Programmer - Chad Fowler',
             },
             {
-              text : 'Azeri',
-              value: 100,
+              icon: 'mdi-book-open-page-variant',
+              text: 'Mastery - Robert Greene',
             },
             {
-              text : 'Persian',
-              value: 100,
+              icon: 'mdi-book-open-page-variant',
+              text: 'Rework - Jason Fried and David Heinemeier Hanson',
+            },
+            {
+              icon: 'mdi-book-open-page-variant',
+              text: 'Pragmatic Programmer - Andrew Hunt and David Thomas',
             },
           ],
         },

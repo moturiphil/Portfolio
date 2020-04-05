@@ -7,8 +7,7 @@
       <content-section
         title="Who am I?"
       >
-        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
+        I am passionate about my work. Because I love what I do.
       </content-section>
       <content-section
         v-if="prouds"
@@ -118,50 +117,55 @@ export default {
   data      : () => ({
     prouds: [
       {
-        icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
+        icon  : 'mdi-code-tags',
+        text  : 'Mentor DSC Kabrak',
+        source: 'I am focusing on supporting the growth and development of students interested in web technologies, improving their skills towards industry requirements.',
       },
       {
-        icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
-        source: '(Bobet.ir and its channel downloads)',
+        icon  : 'mdi-star-circle',
+        text  : 'Pioneer Lead, DSC Kabarak',
+        source: 'I participated in a full-fledged, relevant training during my tenure. I gained skills that include plannning and organizing events in addition to leadership, presentation, communication and time management skills',
       },
       {
-        icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
+        icon  : 'mdi-github-face',
+        text  : 'GitHub Campus Expert',
+        source: 'I have completed hours of training with guidance from GitHub to learn and improve upon my public speaking, technical writing, community leadership and software development to build a strong technical community, on campus',
       },
       {
-        icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        icon  : 'mdi-eventbrite',
+        text  : 'Organized over 40 Events',
+        source: 'As a community organizer in Campus, I have been a host to over 40 amazing events focused on Web technologies, driving the growth of open source, design thinking, Cloud technologies(GCP)...all of these were geared to solving struggles of our society. Worked together with amazing talents and students who were really passionate problem solvers.',
+      },
+      {
+        icon  : 'mdi-microphone-variant',
+        text  : 'Given a talk to over 25 Events',
+        source: 'Most of my talks have been tailored around building solutions for local businesses and organizations and the tools and technologies around the same.  .',
       },
     ],
     educations: [
       {
-        from       : '2015',
-        to         : '2019 (not finished yet)',
-        title      : 'Bachelor\'s degree, Information Technology',
-        location   : 'Seraj University',
+        from       : '2017',
+        to         : '2020 (not finished yet)',
+        title      : 'Bachelor\'s degree, Computer Science',
+        location   : 'Kabarak University',
         description: 'Became a member of University Academic Association of Computer Science',
       },
     ],
     skills: [
       {
-        title: 'PHP',
-        icon : 'mdi-language-php',
-        value: 95,
+        title: 'Python',
+        icon : 'mdi-language-python',
+        value: 75,
       },
       {
         title: 'JavaScript',
         icon : 'mdi-language-javascript',
-        value: 80,
+        value: 85,
       },
       {
-        title: 'Laravel Framework',
+        title: 'Django Framework',
         icon : 'mdi-laravel',
-        value: 90,
+        value: 50,
       },
       {
         title: 'Vue.js Framework',
@@ -170,18 +174,18 @@ export default {
       },
       { divider: true },
       {
-        title: 'Ubuntu Server',
-        icon : 'mdi-ubuntu',
-        value: 70,
-      },
-      {
-        title: 'CentOS Server',
+        title: 'Linux OS',
         icon : 'mdi-linux',
-        value: 47,
+        value: 80,
       },
       {
-        title: 'Web Application Security',
-        icon : 'mdi-shield-lock',
+        title: 'Networking',
+        icon : 'mdi-network',
+        value: 20,
+      },
+      {
+        title: 'Web Application Development',
+        icon : 'mdi-web',
         value: 80,
       },
       {
@@ -192,34 +196,34 @@ export default {
       {
         title: 'Continuous Integration / Continuous Delivery',
         icon : 'mdi-truck-fast',
-        value: 35,
+        value: 40,
       },
       {
         title: 'Git',
         icon : 'mdi-git',
-        value: 67,
+        value: 70,
       },
       { divider: true },
       {
-        title: 'Hardware Development',
-        icon : 'mdi-chip',
-        value: 29,
+        title: 'Google Cloud Platform',
+        icon : 'mdi-cloud-braces',
+        value: 40,
       },
       {
-        title: 'C/C++',
-        icon : 'mdi-language-cpp',
-        value: 38,
+        title: 'PHP',
+        icon : 'mdi-language-php',
+        value: 30,
       },
       { divider: true },
       {
         title: 'Leadership',
         icon : 'mdi-account-group',
-        value: 68,
+        value: 70,
       },
       {
-        title: 'Content Marketing (+340 articles)',
+        title: 'Digital Marketing',
         icon : 'mdi-text',
-        value: 96,
+        value: 80,
       },
     ],
   }),

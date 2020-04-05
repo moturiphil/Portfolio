@@ -83,5 +83,6 @@ export default {
   background: -webkit-linear-gradient(to left, #66668d, #4389a2);
   background: linear-gradient(to left, #66668d, #4389a2);
   background-size: cover;
+  background-image: '/public/img/timeline/code.jpeg';
 }
 </style>

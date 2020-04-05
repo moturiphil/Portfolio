@@ -5,8 +5,8 @@
       size="120"
     >
       <img
-        :src="publicPath('/img/avatar.jpg')"
-        alt="Amirrea Nasiri"
+        :src="publicPath('/img/avatar.jpeg')"
+        alt="Philip Matunda"
       >
     </v-avatar>
   </div>
