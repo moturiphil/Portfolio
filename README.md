@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
-  <a target="_blank" href="https://evryn.github.io/vue-modern-resume/">
-    <img src="src/assets/logo.png" alt="Markdownify">
+  <a target="_blank" href="https://github.com/Phil-Reck/Portfolio">
+    <img src="/img/timeline/portfolio.png" alt="Markdownify">
   </a>
   <br>
   Vue Modern Resume
