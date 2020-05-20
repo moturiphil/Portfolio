@@ -125,8 +125,8 @@ export default {
             },
             {
               icon: 'mdi-twitter',
-              text: 'twitter.com/philip_matunda',
-              link: 'https://twitter.com/philip_matunda',
+              text: 'twitter.com/matundaphilip',
+              link: 'https://twitter.com/matundaphilip',
             },
             {
               icon: 'mdi-instagram',
@@ -181,7 +181,7 @@ export default {
             },
             {
               icon: 'mdi-android-debug-bridge',
-              text: 'Tickling Bugs!',
+              text: 'Debugging!',
             },
           ],
         },

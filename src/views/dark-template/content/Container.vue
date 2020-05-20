@@ -144,8 +144,13 @@ export default {
   data      : () => ({
     prouds: [
       {
-        icon  : 'mdi-codWhat am I proud of?e-tags',
-        text  : 'Mentor DSC Kabrak',
+        icon  : 'mdi-cloud-braces',
+        text  : 'Mentor Exercism.io Javascript track',
+        source: 'Teaching learners to code, and contributing to a site that helps people learn to code',
+      },
+      {
+        icon  : 'mdi-code-braces',
+        text  : 'Mentor DSC Kabarak',
         source: 'I am focusing on supporting the growth and development of students interested in web technologies, improving their skills towards industry requirements.',
       },
       {
@@ -172,17 +177,17 @@ export default {
     educations: [
       {
         from       : '2017',
-        to         : '2020 (not finished yet)',
+        to         : '2020',
         title      : 'Bachelor\'s degree, Computer Science',
         location   : 'Kabarak University',
-        description: 'Became a member of University Academic Association of Computer Science',
+        description: 'Lead Kabarak University Innovation Hub',
       },
     ],
     skills: [
       {
         title: 'Python',
         icon : 'mdi-language-python',
-        value: 75,
+        value: 65,
       },
       {
         title: 'JavaScript',

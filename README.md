@@ -4,7 +4,7 @@
     <img src="/img/timeline/portfolio.png" alt="Markdownify">
   </a>
   <br>
-  Vue Modern Resume
+  Phil modern Resume
   <br>
 </h1>
 
