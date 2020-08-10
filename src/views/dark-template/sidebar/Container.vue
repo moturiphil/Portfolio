@@ -96,7 +96,7 @@ export default {
             {
               name: 'Website',
               icon: 'mdi-web',
-              text: 'philipmatunda.io',
+              text: 'philipmatunda.',
             },
             {
               name: 'Birth Date',
